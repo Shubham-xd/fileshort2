@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config(object):
-        API_ID = int(os.environ.get("API_ID", "0"))
+        API_ID = 4546803
         API_HASH = os.environ.get("API_HASH", "d61fc99a7dcba3c40767e8072a18511b")
         BOT_TOKEN = os.environ.get("BOT_TOKEN", "5645157809:AAFmiJG3SP9Ul41p5XBaSAvmyUgaD5SEURc")
 	BOT_USERNAME = "Shorturllink_storages_robot"
