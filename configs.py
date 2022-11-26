@@ -11,11 +11,11 @@ class Config(object):
         API_HASH = os.environ.get("API_HASH", "d61fc99a7dcba3c40767e8072a18511b")
         BOT_TOKEN = os.environ.get("BOT_TOKEN", "5645157809:AAFmiJG3SP9Ul41p5XBaSAvmyUgaD5SEURc")
 	BOT_USERNAME = "Shorturllink_storages_robot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001714664499"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "2127679841"))
+	DATABASE_URL = "mongodb+srv://fsl:fsl@cluster0.0i5herm.mongodb.net/?retryWrites=true&w=majority"
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001714664499")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
