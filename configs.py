@@ -9,8 +9,8 @@ import os
 class Config(object):
         API_ID = int(os.environ.get("API_ID", "3304796"))
         API_HASH = os.environ.get("API_HASH", "d61fc99a7dcba3c40767e8072a18511b")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5645157809:AAFmiJG3SP9Ul41p5XBaSAvmyUgaD5SEURc")
+	BOT_USERNAME = "Shorturllink_storages_robot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
