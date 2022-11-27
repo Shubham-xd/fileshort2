@@ -491,6 +491,4 @@ async def button(bot: Client, cmd: CallbackQuery):
     try:
         await cmd.answer()
     except QueryIdInvalid: pass
-
-
 Bot.run()
