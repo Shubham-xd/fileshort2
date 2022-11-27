@@ -22,11 +22,11 @@ class Config(object):
     BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
     OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
     ABOUT_BOT_TEXT = f"""Nothing"""
-	ABOUT_DEV_TEXT = f"""
+    ABOUT_DEV_TEXT = f""" 
 **🌐 This Bot Was Devloped By** : @A2z_tech"""
-	HOME_TEXT = """
+    HOME_TEXT = """
 Hello [{}](tg://user?id={})✋\n\n☁️ This Is A Unlimited Telegram Could Storage Bot For shorturllink.in. Send Me Any File And Select Method Wait Few Seconds Bot Will Be Upload To Our Server And Genarate shorturllink.in Link For Files. ⚡\n\nCurrently Supported Format :\n\n⟴ File 📁\n⟴ Video 🎥\n⟴ Photo 🖼️\n⟴ Audio 🎙️\n\nMore Format Soon ⚡\n\nNote : 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗔𝗟𝗦𝗢 𝗨𝗣𝗟𝗢𝗔𝗗 𝟰𝗚𝗕 𝗙𝗜𝗟𝗘𝗦 📥"""
-	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
+    SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
             
 Ex: `/apikey 6LZq851sXofffPHugiKQq`
 
